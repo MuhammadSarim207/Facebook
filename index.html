@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+        .hding1{
+            font-weight: bolder;
+            color: RGB(8, 102, 255);
+            font-family: 'Roboto', sans-serif;
+        }
+        .hd1-3{
+            font-family: 'Roboto', sans-serif;
+            font-weight:  600 ;
+            color: #404c4c;
+        }
+        .div1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height:100vh;
+            width: 100vw;
+            background-color: rgb(228, 228, 228);
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .div3{
+            background-color: white;
+            border: 1px white;
+            -moz-box-shadow: 5px 10px 5px lightgrey; 
+-webkit-box-shadow: 5px 10px 5px lightgrey ; 
+box-shadow: 15px 15px 20px rgb(201, 201, 201) ;
+height: 40% ;
+width: 20%;
+position: relative;
+bottom: 150px ;
+display: flex;
+flex-direction: column;
+border-radius: 7px;
+align-items: center;
+justify-content: space-around;
+
+}
+.ep{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 7px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+.ep:hover{
+    border: 0.5px solid RGB(8, 102, 255); 
+}
+.ep:hover::placeholder{
+    color: RGB(8, 102, 255);
+    opacity:100%;
+}
+.sub{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 90%;
+   background-color:RGB(8, 102, 255) ; 
+   border: 0px;
+   border-radius: 7px;
+   color: white;
+   font-family:"Roboto" ;
+   font-weight: bolder;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-size: x-large;
+   cursor: pointer;
+
+}
+p{
+    color:RGB(8, 102, 255) ;
+}
+.line{
+    border-bottom: 1px solid #404c4c;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-family: "Roboto";
+    width: 90%;
+    cursor: pointer;
+}
+.btn{
+    background-color:rgb(70, 139, 0);
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 8px;
+    width: 50%;
+    padding-bottom: 8px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bolder;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+.ep::placeholder{
+    opacity: 70%;
+}
+    </style>
+    <div class="div1">
+        <div class="d2">
+            <h1 class="hding1">facebook</h1>
+            <h3 class="hd1-3">Connect the friends and the world around you on the facebook</h3>
+        </div>
+        <div class="div3">
+         <input class="ep" type="email" name="email" placeholder=" Email or phone number"/>
+         <input class="ep" type="password" name="password" placeholder=" Password"/>
+         <input class="sub" type="submit" name="Login" value="Login"/>
+         <p class="line">Forgot password?</p>
+         <input class="btn" type="button" name="account" value="Create new account"/>
+        </div>
+    </div>
+</body>    
